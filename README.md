@@ -1,14 +1,18 @@
 # Word Add-ins Tool - Your Ultimate Productivity Booster for Microsoft Word
 
-![](Resources\screenshot_en.png)
+![screenshot](https://github.com/ikiwihome/Word-Add-ins-Tool/blob/main/Resources/screenshot_en.png)
 
 A powerful Word add-in that supercharges your document workflow with essential productivity features:
 
-✨ __Watermark Management__ - Add, modify or remove watermarks with ease 
-📝 __Formatting Tools__ - Uniform fonts, table styles and clean document formatting 
-🔄 __Import/Export__ - Seamless Markdown/text import and PDF export 
-📑 __Template Control__ - Quick document creation from templates 
-⚡ __Field Updates__ - Batch update all fields in document 
+✨ __Watermark Management__ - Add, modify or remove watermarks with ease
+
+📝 __Formatting Tools__ - Uniform fonts, table styles and clean document formatting
+
+🔄 __Import/Export__ - Seamless Markdown/text import and PDF export
+
+📑 __Template Control__ - Quick document creation from templates
+
+⚡ __Field Updates__ - Batch update all fields in document
 
 
 Perfect for professionals who need to:
