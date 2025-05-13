@@ -10,11 +10,11 @@ namespace Word_AddIns
     public static class Logger
     {
         /// <summary>
-        /// 日志文件路径(位于用户目录下的Word_AddIns.log)
+        /// 日志文件路径(位于用户目录下的word_addIns.log)
         /// </summary>
         public static readonly string LogFilePath = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-            "Word_AddIns.log");
+            "word_addIns.log");
 
         /// <summary>
         /// 用户ID存储文件路径(位于用户目录下的userid.txt)
@@ -22,8 +22,6 @@ namespace Word_AddIns
         public static readonly string useridPath = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
             "userid.txt");
-
-        private static string userId = null; // 缓存的用户ID
 
         /// <summary>
         /// 记录异常信息(不带异常对象)

@@ -32,12 +32,12 @@ namespace Word_AddIns
         {
             this.stylesListBox = new System.Windows.Forms.CheckedListBox();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.countLabel = new System.Windows.Forms.Label();
             this.selectAllButton = new System.Windows.Forms.Button();
             this.unselectAllButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
             this.okButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,15 @@ namespace Word_AddIns
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(609, 566);
             this.mainPanel.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(532, 24);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "注意：样式可能包括文档中正在使用的样式，会影响已有内容显示";
             // 
             // countLabel
             // 
@@ -108,15 +117,6 @@ namespace Word_AddIns
             this.okButton.Size = new System.Drawing.Size(120, 50);
             this.okButton.TabIndex = 8;
             this.okButton.Text = "确认删除";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 24);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "注意：样式可能包括文档中正在使用的样式，会影响已有内容显示";
             // 
             // StyleDeleteDialog
             // 

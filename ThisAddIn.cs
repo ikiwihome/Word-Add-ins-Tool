@@ -17,7 +17,7 @@ namespace Word_AddIns
         private readonly ResourceManager resourceManager = new ResourceManager("Word_AddIns.Properties.Resources", Assembly.GetExecutingAssembly());
 
         /// <summary>当前语言设置</summary>
-        private CultureInfo currentLanguage;
+        private CultureInfo currentLanguage = CultureInfo.GetCultureInfo("zh-CN");
 
         /// <summary>
         /// 插件启动事件处理程序

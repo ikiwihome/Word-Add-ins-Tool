@@ -119,7 +119,7 @@ namespace Word_AddIns
         private async System.Threading.Tasks.Task StartPandocConvertAsync(string markdownFilePath, Range range)
         {
             string pandocPath = GetPandocPath();
-            string docxPath = Path.Combine(Path.GetTempPath(), "Addin_Markdown",
+            string docxPath = Path.Combine(Path.GetTempPath(), "word-addin-temp",
                 $"{Path.GetFileNameWithoutExtension(markdownFilePath)}.docx");
 
             // 使用pandoc-reference.docx作为参考文档进行转换

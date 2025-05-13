@@ -1278,9 +1278,9 @@ Email: ikiwicc@gmail.com
                 if (File.Exists(wordTemplatePath))
                 {
                     // Create temp copy with meaningful name
-                    string tempDir = Path.Combine(Path.GetTempPath(), "Word_AddIns");
+                    string tempDir = Path.Combine(Path.GetTempPath(), "word-addin-temp");
                     Directory.CreateDirectory(tempDir);
-                    tempPath = Path.Combine(tempDir, $"Normal_{DateTime.Now:yyyyMMddHHmmss}.dotm");
+                    tempPath = Path.Combine(tempDir, $"Normal.dotm");
                     File.Copy(wordTemplatePath, tempPath, true);
                 }
                 else
