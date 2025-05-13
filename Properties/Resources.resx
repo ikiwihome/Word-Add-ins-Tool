@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAbout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAddWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAddWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExportPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExportPDF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnFeedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnFeedback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnImportMarkdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnImportMarkdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnImportText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnImportText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnModifyWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnModifyWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnNewDocument" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnNewDocument.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRemoveStyles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRemoveStyles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRemoveWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRemoveWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSetDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSetDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUniformFont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUniformFont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUpdateFields" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUpdateFields.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mnuWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUniformTableStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUniformTableStyle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RibbonTab_Label" xml:space="preserve">
+    <value>模板工具</value>
+  </data>
+  <data name="ImportGroup_Label" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="btnImportMarkdown_Label" xml:space="preserve">
+    <value>导入
+Markdown</value>
+  </data>
+  <data name="btnImportMarkdown_ScreenTip" xml:space="preserve">
+    <value>导入Markdown文件</value>
+  </data>
+  <data name="btnImportMarkdown_SuperTip" xml:space="preserve">
+    <value>将Markdown文件转换并导入到当前Word文档中，不支持多文件导入</value>
+  </data>
+  <data name="btnImportText_Label" xml:space="preserve">
+    <value>导入
+文本文件</value>
+  </data>
+  <data name="btnImportText_ScreenTip" xml:space="preserve">
+    <value>导入文本文件</value>
+  </data>
+  <data name="btnImportText_SuperTip" xml:space="preserve">
+    <value>将TXT文件导入到当前Word文档中，支持多文件导入</value>
+  </data>
+  <data name="DesignGroup_Label" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="btnUniformFont_Label" xml:space="preserve">
+    <value>统一字体</value>
+  </data>
+  <data name="btnUniformFont_ScreenTip" xml:space="preserve">
+    <value>统一文档字体</value>
+  </data>
+  <data name="btnUniformFont_SuperTip" xml:space="preserve">
+    <value>将文档中所有文本设置为统一字体 - 微软雅黑</value>
+  </data>
+  <data name="btnRemoveStyles_Label" xml:space="preserve">
+    <value>删除
+无用样式</value>
+  </data>
+  <data name="btnRemoveStyles_ScreenTip" xml:space="preserve">
+    <value>删除无用样式</value>
+  </data>
+  <data name="btnRemoveStyles_SuperTip" xml:space="preserve">
+    <value>删除文档中多余的样式，包括已经使用的多余样式，多余样式会在确认后删除</value>
+  </data>
+  <data name="btnApplyTemplate_Label" xml:space="preserve">
+    <value>应用
+模板样式</value>
+  </data>
+  <data name="btnApplyTemplate_ScreenTip" xml:space="preserve">
+    <value>应用模板样式</value>
+  </data>
+  <data name="btnApplyTemplate_SuperTip" xml:space="preserve">
+    <value>应用定制模板样式到当前文档</value>
+  </data>
+  <data name="mnuWatermark_Label" xml:space="preserve">
+    <value>水印</value>
+  </data>
+  <data name="mnuWatermark_ScreenTip" xml:space="preserve">
+    <value>水印操作</value>
+  </data>
+  <data name="mnuWatermark_SuperTip" xml:space="preserve">
+    <value>添加、修改或删除文档水印</value>
+  </data>
+  <data name="btnAddWatermark_Label" xml:space="preserve">
+    <value>添加水印</value>
+  </data>
+  <data name="btnModifyWatermark_Label" xml:space="preserve">
+    <value>修改水印</value>
+  </data>
+  <data name="btnRemoveWatermark_Label" xml:space="preserve">
+    <value>删除水印</value>
+  </data>
+  <data name="ExportGroup_Label" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="btnExportPDF_Label" xml:space="preserve">
+    <value>导出PDF</value>
+  </data>
+  <data name="btnExportPDF_ScreenTip" xml:space="preserve">
+    <value>导出为PDF</value>
+  </data>
+  <data name="btnExportPDF_SuperTip" xml:space="preserve">
+    <value>将当前文档导出为PDF文件</value>
+  </data>
+  <data name="TemplateGroup_Label" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="btnNewDocument_Label" xml:space="preserve">
+    <value>创建
+新文档</value>
+  </data>
+  <data name="btnNewDocument_ScreenTip" xml:space="preserve">
+    <value>新建文档</value>
+  </data>
+  <data name="btnNewDocument_SuperTip" xml:space="preserve">
+    <value>基于预置内容的文档模板创建新文档</value>
+  </data>
+  <data name="btnUpdateFields_Label" xml:space="preserve">
+    <value>更新
+所有域</value>
+  </data>
+  <data name="btnUpdateFields_ScreenTip" xml:space="preserve">
+    <value>更新所有域</value>
+  </data>
+  <data name="btnUpdateFields_SuperTip" xml:space="preserve">
+    <value>更新文档中的所有域，包括目录、页码等</value>
+  </data>
+  <data name="btnUniformTableStyle_Label" xml:space="preserve">
+    <value>统一表格</value>
+  </data>
+  <data name="btnUniformTableStyle_ScreenTip" xml:space="preserve">
+    <value>统一表格样式</value>
+  </data>
+  <data name="btnUniformTableStyle_SuperTip" xml:space="preserve">
+    <value>将文档中的所有表格应用统一的样式</value>
+  </data>
+  <data name="Msg_UniformTableStyleSuccess" xml:space="preserve">
+    <value>已成功统一所有表格样式</value>
+  </data>
+  <data name="Error_UniformTableStyleFailed" xml:space="preserve">
+    <value>统一表格样式失败</value>
+  </data>
+  <data name="btnSetDefault_Label" xml:space="preserve">
+    <value>设为默认</value>
+  </data>
+  <data name="btnSetDefault_ScreenTip" xml:space="preserve">
+    <value>设为默认模板</value>
+  </data>
+  <data name="btnSetDefault_SuperTip" xml:space="preserve">
+    <value>将定制文档模板设为Word默认模板</value>
+  </data>
+  <data name="MoreGroup_Label" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="btnAbout_Label" xml:space="preserve">
+    <value>关于插件</value>
+  </data>
+  <data name="btnAbout_ScreenTip" xml:space="preserve">
+    <value>关于插件</value>
+  </data>
+  <data name="btnAbout_SuperTip" xml:space="preserve">
+    <value>显示本插件版本以及版权等信息</value>
+  </data>
+  <data name="btnFeedback_Label" xml:space="preserve">
+    <value>反馈问题</value>
+  </data>
+  <data name="btnFeedback_ScreenTip" xml:space="preserve">
+    <value>问题反馈</value>
+  </data>
+  <data name="btnFeedback_SuperTip" xml:space="preserve">
+    <value>提交当前系统以及Office版本、插件使用问题或改进建议</value>
+  </data>
+  <data name="Error_NoDocument" xml:space="preserve">
+    <value>没有打开的文档</value>
+  </data>
+  <data name="Error_NoSelection" xml:space="preserve">
+    <value>请先选择内容</value>
+  </data>
+  <data name="Title_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Title_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Error_FileNotFound" xml:space="preserve">
+    <value>文件 {0} 不存在</value>
+  </data>
+  <data name="Msg_TextImportSuccess" xml:space="preserve">
+    <value>成功导入 {0}/{1} 个文本文件</value>
+  </data>
+  <data name="Msg_UniformFontSuccess" xml:space="preserve">
+    <value>文档字体已统一设置为{0}</value>
+  </data>
+  <data name="Msg_StyleRemovedSuccess" xml:space="preserve">
+    <value>文档样式清理成功</value>
+  </data>
+  <data name="Error_TemplateNotFound" xml:space="preserve">
+    <value>模板文件未找到: {0}</value>
+  </data>
+  <data name="Msg_FieldsUpdated" xml:space="preserve">
+    <value>文档中的所有域已更新完成</value>
+  </data>
+  <data name="Msg_WatermarkRemoved" xml:space="preserve">
+    <value>水印已成功删除</value>
+  </data>
+  <data name="Error_WatermarkNotFound" xml:space="preserve">
+    <value>未找到名为'watermark'的水印</value>
+  </data>
+  <data name="Msg_ReplaceTemplatePending" xml:space="preserve">
+    <value>模板替换任务已挂起
+将在Word退出后自动替换模板</value>
+  </data>
+  <data name="DefaultFontName" xml:space="preserve">
+    <value>微软雅黑</value>
+  </data>
+  <data name="btn_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btn_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Label_WatermarkText" xml:space="preserve">
+    <value>请输入水印文字:</value>
+  </data>
+  <data name="Label_FontSize" xml:space="preserve">
+    <value>选择字体大小:</value>
+  </data>
+  <data name="Title_WatermarkDialog" xml:space="preserve">
+    <value>添加水印</value>
+  </data>
+  <data name="DefaultWatermarkText" xml:space="preserve">
+    <value>Confidential</value>
+  </data>
+  <data name="Title_SelectTextFiles" xml:space="preserve">
+    <value>选择要导入的文本文件</value>
+  </data>
+  <data name="Title_ExportPDF" xml:space="preserve">
+    <value>导出PDF</value>
+  </data>
+  <data name="Error_AddWatermark" xml:space="preserve">
+    <value>添加水印时出错</value>
+  </data>
+  <data name="Error_RemoveWatermarkFailed" xml:space="preserve">
+    <value>删除水印时出错</value>
+  </data>
+  <data name="Error_CreateDocument" xml:space="preserve">
+    <value>创建新文档时出错</value>
+  </data>
+  <data name="Title_About" xml:space="preserve">
+    <value>关于插件</value>
+  </data>
+  <data name="Msg_ConfirmTemplateReplace" xml:space="preserve">
+    <value>确认要替换Word默认模板吗？</value>
+  </data>
+  <data name="Title_TemplateReplace" xml:space="preserve">
+    <value>模板替换确认</value>
+  </data>
+  <data name="Title_Notice" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="Error_TemplateScriptMissing" xml:space="preserve">
+    <value>模板替换脚本不存在</value>
+  </data>
+  <data name="Error_TemplateScriptFailed" xml:space="preserve">
+    <value>执行模板替换脚本时出错</value>
+  </data>
+  <data name="Error_LoadWatermarkFailed" xml:space="preserve">
+    <value>加载水印文本失败</value>
+  </data>
+  <data name="Error_DeleteStyleFailed" xml:space="preserve">
+    <value>无法删除样式</value>
+  </data>
+  <data name="Error_MarkdownProcessFailed" xml:space="preserve">
+    <value>处理Markdown文件时出错</value>
+  </data>
+  <data name="Error_InvalidPathChars" xml:space="preserve">
+    <value>文件路径包含非法字符: {0}</value>
+  </data>
+  <data name="Error_PandocFailed" xml:space="preserve">
+    <value>Pandoc转换失败: </value>
+  </data>
+  <data name="Error_PandocMissing" xml:space="preserve">
+    <value>未找到pandoc.exe，请从官方网站下载并安装: https://pandoc.org/installing.html</value>
+  </data>
+  <data name="Msg_TemplateApplySuccess" xml:space="preserve">
+    <value>定制模板已应用到当前文档</value>
+  </data>
+  <data name="Error_ApplyTemplateFailed" xml:space="preserve">
+    <value>模板应用失败</value>
+  </data>
+  <data name="Error_OpenEmailFailed" xml:space="preserve">
+    <value>打开邮件客户端失败</value>
+  </data>
+  <data name="Error_WordTemplateMissing" xml:space="preserve">
+    <value>Word模板文件(Normal.dotx)不存在</value>
+  </data>
+  <data name="Msg_NoStylesToRemove" xml:space="preserve">
+    <value>没有需要删除的样式</value>
+  </data>
+  <data name="Msg_ConfirmRemoveStyles" xml:space="preserve">
+    <value>即将删除以下样式:
+{0}
+
+确认要删除吗？</value>
+  </data>
+  <data name="Title_Confirm" xml:space="preserve">
+    <value>确认删除</value>
+  </data>
+  <data name="Msg_WatermarkAdded" xml:space="preserve">
+    <value>水印已成功添加</value>
+  </data>
+  <data name="Msg_WatermarkModified" xml:space="preserve">
+    <value>水印已成功修改</value>
+  </data>
+  <data name="Title_Success" xml:space="preserve">
+    <value>操作成功</value>
+  </data>
+  <data name="Error_CheckWatermarkFailed" xml:space="preserve">
+    <value>检查水印失败</value>
+  </data>
+  <data name="Error_CompareTemplateFailed" xml:space="preserve">
+    <value>比较模板失败</value>
+  </data>
+  <data name="Error_WatermarkCheckFailed" xml:space="preserve">
+    <value>水印检查失败</value>
+  </data>
+  <data name="Error_CopyResourcesFailed" xml:space="preserve">
+    <value>复制模板失败</value>
+  </data>
+  <data name="Error_UpdateFieldsFailed" xml:space="preserve">
+    <value>更新域失败</value>
+  </data>
+  <data name="Error_ImportFailed" xml:space="preserve">
+    <value>导入失败</value>
+  </data>
+  <data name="Error_FileReadError" xml:space="preserve">
+    <value>文件读取错误</value>
+  </data>
+  <data name="Error_ModifyWatermarkFailed" xml:space="preserve">
+    <value>修改水印失败</value>
+  </data>
+  <data name="Msg_NoTable" xml:space="preserve">
+    <value>当前文档中没有表格</value>
+  </data>
+  <data name="Msg_ProcessingFile" xml:space="preserve">
+    <value>正在导入文件: {0}</value>
+  </data>
+  <data name="Title_ImportText" xml:space="preserve">
+    <value>导入文本文件</value>
+  </data>
+  <data name="Title_ImportMarkdown" xml:space="preserve">
+    <value>导入Markdown文件</value>
+  </data>
+  <data name="Title_ImportFailed" xml:space="preserve">
+    <value>导入操作失败</value>
+  </data>
+  <data name="Msg_InProcessing" xml:space="preserve">
+    <value>正在处理....</value>
+  </data>
+  <data name="Msg_MarkdownImportSuccess" xml:space="preserve">
+    <value>Markdown文件已成功导入</value>
+  </data>
+  <data name="Title_SelectMarkdownFiles" xml:space="preserve">
+    <value>选择要导入的Markdown文件</value>
+  </data>
+</root>

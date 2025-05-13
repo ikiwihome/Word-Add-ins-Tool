@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAbout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnAddWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAddWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExportPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExportPDF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnFeedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnFeedback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnImportMarkdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnImportMarkdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnImportText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnImportText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnModifyWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnModifyWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnNewDocument" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnNewDocument.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRemoveStyles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRemoveStyles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRemoveWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnRemoveWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnSetDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnSetDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUniformFont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUniformFont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUpdateFields" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUpdateFields.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuWatermark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mnuWatermark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnUniformTableStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnUniformTableStyle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RibbonTab_Label" xml:space="preserve">
+    <value>Toolsets</value>
+  </data>
+  <data name="ImportGroup_Label" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="btnImportMarkdown_Label" xml:space="preserve">
+    <value>Import Markdown</value>
+  </data>
+  <data name="btnImportMarkdown_ScreenTip" xml:space="preserve">
+    <value>Import Markdown File</value>
+  </data>
+  <data name="btnImportMarkdown_SuperTip" xml:space="preserve">
+    <value>Convert the Markdown file and import it into the current document; multiple file imports are not supported.</value>
+  </data>
+  <data name="btnImportText_Label" xml:space="preserve">
+    <value>Import Text File</value>
+  </data>
+  <data name="btnImportText_ScreenTip" xml:space="preserve">
+    <value>Import Text File</value>
+  </data>
+  <data name="btnImportText_SuperTip" xml:space="preserve">
+    <value>Import TXT files into the current Word document, supporting multiple file imports.</value>
+  </data>
+  <data name="DesignGroup_Label" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="btnUniformFont_Label" xml:space="preserve">
+    <value>Uniform Font</value>
+  </data>
+  <data name="btnUniformFont_ScreenTip" xml:space="preserve">
+    <value>Uniform Document Font</value>
+  </data>
+  <data name="btnUniformFont_SuperTip" xml:space="preserve">
+    <value>Set all the text in the document to a uniform font - Microsoft YaHei.</value>
+  </data>
+  <data name="btnRemoveStyles_Label" xml:space="preserve">
+    <value>Remove Excessive Styles</value>
+  </data>
+  <data name="btnRemoveStyles_ScreenTip" xml:space="preserve">
+    <value>Remove Excessive Styles</value>
+  </data>
+  <data name="btnRemoveStyles_SuperTip" xml:space="preserve">
+    <value>Remove the excessive styles in the document, including the unnecessary styles that have already been used, these will be removed after confirmation.</value>
+  </data>
+  <data name="btnApplyTemplate_Label" xml:space="preserve">
+    <value>Apply
+Template Styles</value>
+  </data>
+  <data name="btnApplyTemplate_ScreenTip" xml:space="preserve">
+    <value>Apply template styles</value>
+  </data>
+  <data name="btnApplyTemplate_SuperTip" xml:space="preserve">
+    <value>Apply predefined template styles to current document</value>
+  </data>
+  <data name="mnuWatermark_Label" xml:space="preserve">
+    <value>Watermark</value>
+  </data>
+  <data name="mnuWatermark_ScreenTip" xml:space="preserve">
+    <value>Watermark Operations</value>
+  </data>
+  <data name="mnuWatermark_SuperTip" xml:space="preserve">
+    <value>Add, modify or remove document watermark</value>
+  </data>
+  <data name="btnAddWatermark_Label" xml:space="preserve">
+    <value>Add Watermark</value>
+  </data>
+  <data name="btnModifyWatermark_Label" xml:space="preserve">
+    <value>Modify Watermark</value>
+  </data>
+  <data name="btnRemoveWatermark_Label" xml:space="preserve">
+    <value>Remove Watermark</value>
+  </data>
+  <data name="ExportGroup_Label" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="btnExportPDF_Label" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="btnExportPDF_ScreenTip" xml:space="preserve">
+    <value>Export to PDF</value>
+  </data>
+  <data name="btnExportPDF_SuperTip" xml:space="preserve">
+    <value>Export current document as PDF file</value>
+  </data>
+  <data name="TemplateGroup_Label" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="btnNewDocument_Label" xml:space="preserve">
+    <value>New Document</value>
+  </data>
+  <data name="btnNewDocument_ScreenTip" xml:space="preserve">
+    <value>New Document</value>
+  </data>
+  <data name="btnNewDocument_SuperTip" xml:space="preserve">
+    <value>Create new document based on template with preset content</value>
+  </data>
+  <data name="btnUpdateFields_Label" xml:space="preserve">
+    <value>Update All Fields</value>
+  </data>
+  <data name="btnUpdateFields_ScreenTip" xml:space="preserve">
+    <value>Update All Fields</value>
+  </data>
+  <data name="btnUpdateFields_SuperTip" xml:space="preserve">
+    <value>Update all fields in the document, including table of contents, page numbers, etc.</value>
+  </data>
+  <data name="btnUniformTableStyle_Label" xml:space="preserve">
+    <value>Uniform Table</value>
+  </data>
+  <data name="btnUniformTableStyle_ScreenTip" xml:space="preserve">
+    <value>Uniform Table Style</value>
+  </data>
+  <data name="btnUniformTableStyle_SuperTip" xml:space="preserve">
+    <value>Apply uniform style to all tables in the document</value>
+  </data>
+  <data name="Msg_UniformTableStyleSuccess" xml:space="preserve">
+    <value>All table styles have been unified successfully</value>
+  </data>
+  <data name="Error_UniformTableStyleFailed" xml:space="preserve">
+    <value>Failed to uniform table styles</value>
+  </data>
+  <data name="btnSetDefault_Label" xml:space="preserve">
+    <value>Set as Default</value>
+  </data>
+  <data name="btnSetDefault_ScreenTip" xml:space="preserve">
+    <value>Set as Default Template</value>
+  </data>
+  <data name="btnSetDefault_SuperTip" xml:space="preserve">
+    <value>Set the custom document template as the default Word template.</value>
+  </data>
+  <data name="MoreGroup_Label" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="btnAbout_Label" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="btnAbout_ScreenTip" xml:space="preserve">
+    <value>About this Add-in</value>
+  </data>
+  <data name="btnAbout_SuperTip" xml:space="preserve">
+    <value>Show add-in version and copyright information</value>
+  </data>
+  <data name="btnFeedback_Label" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="btnFeedback_ScreenTip" xml:space="preserve">
+    <value>Submit Feedback</value>
+  </data>
+  <data name="btnFeedback_SuperTip" xml:space="preserve">
+    <value>Submit current system and Office version, plugin usage issues or improvement suggestions.</value>
+  </data>
+  <data name="Error_NoDocument" xml:space="preserve">
+    <value>No document is open</value>
+  </data>
+  <data name="Error_NoSelection" xml:space="preserve">
+    <value>Please select content first</value>
+  </data>
+  <data name="Title_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Title_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Error_FileNotFound" xml:space="preserve">
+    <value>File {0} not found</value>
+  </data>
+  <data name="Msg_TextImportSuccess" xml:space="preserve">
+    <value>Successfully imported {0}/{1} text files</value>
+  </data>
+  <data name="Msg_UniformFontSuccess" xml:space="preserve">
+    <value>Document font has been uniformly set to {0}</value>
+  </data>
+  <data name="Msg_StyleRemovedSuccess" xml:space="preserve">
+    <value>Document styles have been cleaned successfully</value>
+  </data>
+  <data name="Error_TemplateNotFound" xml:space="preserve">
+    <value>Template file not found: {0}</value>
+  </data>
+  <data name="Msg_FieldsUpdated" xml:space="preserve">
+    <value>All fields in the document have been updated</value>
+  </data>
+  <data name="Msg_WatermarkRemoved" xml:space="preserve">
+    <value>Watermark has been successfully removed</value>
+  </data>
+  <data name="Error_WatermarkNotFound" xml:space="preserve">
+    <value>Watermark named 'watermark' not found</value>
+  </data>
+  <data name="Msg_ReplaceTemplatePending" xml:space="preserve">
+    <value>Template replacement task is pending
+Template will be automatically replaced after Word exits</value>
+  </data>
+  <data name="DefaultFontName" xml:space="preserve">
+    <value>Microsoft YaHei</value>
+  </data>
+  <data name="btn_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Label_WatermarkText" xml:space="preserve">
+    <value>Enter watermark text:</value>
+  </data>
+  <data name="Label_FontSize" xml:space="preserve">
+    <value>Select font size:</value>
+  </data>
+  <data name="Title_WatermarkDialog" xml:space="preserve">
+    <value>Add Watermark</value>
+  </data>
+  <data name="DefaultWatermarkText" xml:space="preserve">
+    <value>Confidential</value>
+  </data>
+  <data name="Title_SelectTextFiles" xml:space="preserve">
+    <value>Select text files to import</value>
+  </data>
+  <data name="Title_ExportPDF" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Error_AddWatermark" xml:space="preserve">
+    <value>Error adding watermark</value>
+  </data>
+  <data name="Error_RemoveWatermarkFailed" xml:space="preserve">
+    <value>Error removing watermark</value>
+  </data>
+  <data name="Error_CreateDocument" xml:space="preserve">
+    <value>Error creating new document</value>
+  </data>
+  <data name="Title_About" xml:space="preserve">
+    <value>About Add-in</value>
+  </data>
+  <data name="Msg_ConfirmTemplateReplace" xml:space="preserve">
+    <value>Confirm to replace Word default template?</value>
+  </data>
+  <data name="Title_TemplateReplace" xml:space="preserve">
+    <value>Template Replacement Confirmation</value>
+  </data>
+  <data name="Title_Notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Error_TemplateScriptMissing" xml:space="preserve">
+    <value>Template script not found</value>
+  </data>
+  <data name="Error_TemplateScriptFailed" xml:space="preserve">
+    <value>Error executing template script</value>
+  </data>
+  <data name="Error_LoadWatermarkFailed" xml:space="preserve">
+    <value>Failed to load watermark text</value>
+  </data>
+  <data name="Error_DeleteStyleFailed" xml:space="preserve">
+    <value>Could not delete style</value>
+  </data>
+  <data name="Error_MarkdownProcessFailed" xml:space="preserve">
+    <value>Error processing Markdown file</value>
+  </data>
+  <data name="Error_InvalidPathChars" xml:space="preserve">
+    <value>File path contains invalid characters: {0}</value>
+  </data>
+  <data name="Error_PandocFailed" xml:space="preserve">
+    <value>Pandoc conversion failed: </value>
+  </data>
+  <data name="Error_PandocMissing" xml:space="preserve">
+    <value>pandoc.exe not found, please download and install from official website: https://pandoc.org/installing.html</value>
+  </data>
+  <data name="Msg_TemplateApplySuccess" xml:space="preserve">
+    <value>The custom template has been applied to the current document</value>
+  </data>
+  <data name="Error_ApplyTemplateFailed" xml:space="preserve">
+    <value>Template apply failed</value>
+  </data>
+  <data name="Error_OpenEmailFailed" xml:space="preserve">
+    <value>Open Email Client failed</value>
+  </data>
+  <data name="Error_WordTemplateMissing" xml:space="preserve">
+    <value>Word template file (Normal.dotx) not found</value>
+  </data>
+  <data name="Msg_NoStylesToRemove" xml:space="preserve">
+    <value>No styles to remove</value>
+  </data>
+  <data name="Msg_ConfirmRemoveStyles" xml:space="preserve">
+    <value>The following styles will be removed:
+{0}
+
+Confirm deletion?</value>
+  </data>
+  <data name="Title_Confirm" xml:space="preserve">
+    <value>Confirm Deletion</value>
+  </data>
+  <data name="Msg_WatermarkAdded" xml:space="preserve">
+    <value>Watermark added successfully</value>
+  </data>
+  <data name="Msg_WatermarkModified" xml:space="preserve">
+    <value>Watermark modified successfully</value>
+  </data>
+  <data name="Title_Success" xml:space="preserve">
+    <value>Operation succeeded</value>
+  </data>
+  <data name="Error_CheckWatermarkFailed" xml:space="preserve">
+    <value>Failed to check watermark</value>
+  </data>
+  <data name="Error_CompareTemplateFailed" xml:space="preserve">
+    <value>Failed to compare templates</value>
+  </data>
+  <data name="Error_WatermarkCheckFailed" xml:space="preserve">
+    <value>Watermark check failed</value>
+  </data>
+  <data name="Error_CopyResourcesFailed" xml:space="preserve">
+    <value>Failed to copy resources</value>
+  </data>
+  <data name="Error_UpdateFieldsFailed" xml:space="preserve">
+    <value>Failed to update fields</value>
+  </data>
+  <data name="Error_ImportFailed" xml:space="preserve">
+    <value>Import failed</value>
+  </data>
+  <data name="Error_FileReadError" xml:space="preserve">
+    <value>File read error</value>
+  </data>
+  <data name="Error_ModifyWatermarkFailed" xml:space="preserve">
+    <value>Failed to modify watermark</value>
+  </data>
+  <data name="Msg_NoTable" xml:space="preserve">
+    <value>No table in this document</value>
+  </data>
+  <data name="Msg_ProcessingFile" xml:space="preserve">
+    <value>Importing File: {0}</value>
+  </data>
+  <data name="Title_ImportText" xml:space="preserve">
+    <value>Import Text Files</value>
+  </data>
+  <data name="Title_ImportMarkdown" xml:space="preserve">
+    <value>Import Markdown Files</value>
+  </data>
+  <data name="Title_ImportFailed" xml:space="preserve">
+    <value>Import Operation Failed</value>
+  </data>
+  <data name="Msg_InProcessing" xml:space="preserve">
+    <value>In processing....</value>
+  </data>
+  <data name="Msg_MarkdownImportSuccess" xml:space="preserve">
+    <value>The Markdown file imported successfully </value>
+  </data>
+  <data name="Title_SelectMarkdownFiles" xml:space="preserve">
+    <value>Select markdown file to import</value>
+  </data>
+</root>

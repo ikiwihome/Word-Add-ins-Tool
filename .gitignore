@@ -1,0 +1,8 @@
+.vs/
+obj/
+bin/
+dist/
+publish/
+Word Add-ins Tool.csproj.user
+Resources/pandoc.exe
+Word Add-ins Tool Setup*.exe
