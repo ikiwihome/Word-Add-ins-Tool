@@ -80,8 +80,6 @@ Section "MainSection" SEC01
   File "bin\Release\x64\UtfUnknown.dll"
   File "bin\Release\x64\README.md"
   File "bin\Release\x64\LICENSE"
-  File "bin\Release\x64\markdown-test.md"
-  File "bin\Release\x64\code-test.md"
   
   SetOutPath "$INSTDIR\Resources"
   File "bin\Release\x64\Resources\addin-template.docx"
@@ -139,8 +137,6 @@ Section Uninstall
   Delete "$INSTDIR\uninst.exe"
   Delete "$INSTDIR\README.md"
   Delete "$INSTDIR\LICENSE"
-  Delete "$INSTDIR\markdown-test.md"
-  Delete "$INSTDIR\code-test.md"
   Delete "$INSTDIR\Resources\replace_template.bat"
   Delete "$INSTDIR\Resources\pandoc.exe"
   Delete "$INSTDIR\Resources\pandoc-reference.docx"
