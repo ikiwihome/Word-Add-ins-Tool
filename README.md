@@ -24,7 +24,12 @@ Perfect for professionals who need to:
 
 Built with C# and .NET, this add-in integrates smoothly into Word's ribbon interface for maximum usability.
 
+## How to development
 
+1. Install Pandoc or put pandoc.exe into Resources folder
+2. Visual Studio 2022 with Office VSTO development
+3. Build solution
+4. Build setup program: install NSIS and excute makensis "Word Add-ins Tool" command
 
 # License
 
